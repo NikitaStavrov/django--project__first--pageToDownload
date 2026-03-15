@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Page Downloader</title>
+</head>
+<body>
+
+<h2>Search and download first result</h2>
+
+<form method="post">
+    {% csrf_token %}
+    <input type="text" name="query" placeholder="Enter search query (e.g., example html)" required>
+    <button type="submit">Search and Download</button>
+</form>
+
+</body>
+</html>
