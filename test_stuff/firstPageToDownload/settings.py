@@ -34,7 +34,7 @@ SECRET_KEY = SECRET_KEY
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '0.0.0.0', '0.0.0.0:8000']
+ALLOWED_HOSTS = ['localhost', '0.0.0.0', '0.0.0.0:8000', 'django-project-first-pagetodownload.onrender.com']
 
 
 # Application definition
