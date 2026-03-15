@@ -5,6 +5,7 @@ Simple Django app that uses SerpAPI to perform Google searches and returns the f
 
 > Main magic is inside:
 > - `test_stuff/mainf/views.py`
+> - `test_stuff/mainf/tests.py`
 > - `test_stuff/mainf/templates/index.html`
 
 ## Features
