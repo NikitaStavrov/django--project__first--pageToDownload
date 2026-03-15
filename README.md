@@ -3,6 +3,10 @@ Prakticky test
 
 Simple Django app that uses SerpAPI to perform Google searches and returns the first organic result as a downloadable JSON file.
 
+> Main magic is inside:
+> - `test_stuff/mainf/views.py`
+> - `test_stuff/mainf/templates/index.html`
+
 ## Features
 
 - Accepts a search query via POST
